@@ -1,0 +1,40 @@
+h1 {
+    color: blue;
+    text-shadow: 3px 3px lime;
+}
+
+h2 {
+    color: black;
+    text-shadow: 2px 2px cyan;
+}
+
+p {
+  color: gray;
+}
+
+ul {
+  border: 5px solid orange;
+  list-style-type: square;
+}
+
+ol {
+  border: 5px solid teal;
+}
+
+ol, ul {
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+strong {
+  color: black;
+}
+
+em {
+  color: black;
+}
+
+hr {
+    height: 5px;
+    border-width: 5px;
+}
