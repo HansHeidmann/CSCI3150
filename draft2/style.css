@@ -40,6 +40,9 @@ h1 {
     font-size: 40px;
     margin: 0px;
 }
+h2 {
+    font-size: 30px;
+}
 
 #nav-stuff {
     text-align: left;
@@ -137,6 +140,12 @@ h1 {
     width: 33%;
 }
 
+fieldset {
+    border: 0;
+}
+legend {
+    font-size: 22px;
+}
 h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
