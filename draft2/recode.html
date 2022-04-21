@@ -1,10 +1,379 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>TGTHR</title>
-    </head>
-    <body>
-        HELLO WORLD
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGTHR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <h1>TGTHR</h1>
+                    </td>
+                    <td id="nav-stuff">
+                        <p>
+                            <nav>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Youth Resources</button>
+                                    <div class="dropdown-content">
+                                        <ul>
+                                            <li><a href="#">Our Services and Locations</a></li>
+                                            <li><a href="#">Reach Out</a></li>
+                                            <li><a href="#">Additional Resources</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Get Involved</button>
+                                    <div class="dropdown-content">
+                                        <ul>
+                                            <li><a href="#">Donate</a></li>
+                                            <li><a href="#">Work With Us</a></li>
+                                            <li><a href="#">Volunteer</a></li>
+                                            <li><a href="#">Events</a></li>
+                                            <li><a href="#">Partners</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">About TGTHR</button>
+                                    <div class="dropdown-content">
+                                        <ul>
+                                            <li><a href="#">Our Impact</a></li>
+                                            <li><a href="#">Our Programs</a></li>
+                                            <li><a href="#">Our Team</a></li>
+                                            <li><a href="#">Financials</a></li>
+                                            <li><a href="#">Justice Work</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="contactbtn">Donate</button>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="donatebtn">Contact Us</button>
+                                </div>
+
+                            </nav>
+                        </p>
+                    </td>
+                    <td id="language-selection">
+                        <p>
+                            <div><a href="#">English</a><span>&nbsp|&nbsp</span><a href="#">Spanish</a></div>
+                            <span id="call-text">CALL 303.447.1207</span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <td class="td-half-wide">
+                        <h2>THE DIFFERENCE YOU CAN MAKE IS REAL</h2>
+                        <a href="#"><img src="img/logo.png" alt=""  width="60%"></a>
+                        <p>(FORMERLY ATTENTION HOMES)</p>
+                        <p class="description">Whether you’re looking to transform your own life or empower others’ transformations, TGTHR we will end youth homelessness</p>
+                    </td>
+                    <td class="td-half-wide">
+                        <img src="img/girl.png" alt="" width="100%">
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="td-third-wide">
+                        <img src="img/girl2.png" alt="A caucasian homeless girl who received support" width="100%">
+                    </td>
+                    <td class="td-third-wide">
+                        <h2>FIND SUPPORT</h2>
+                        <h3>Youth Resources</h3>
+                        <p class="description">Get access to the resources, tools, and support you need to make the life you want.</p>
+                        <input type="button" value="Learn More" class=""/>
+                    </td>
+                    <td class="td-third-wide">
+                        <form action="" method="post" id="lookingfor">
+                            <h2>I am looking for:</h2>
+                            <span class="form-instructions">Please select 1 item.</span>
+                            <table><ul>
+                                <tr>
+                                    <td  class="leftSide">
+                                        <li>
+                                            <label for="Shelter">Shelter:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Shelter" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <label for="Housing">Housing:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Housing" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <label for="Needs">Basic Needs:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Needs" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <label for="Employment">Employment:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Employment" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <label for="Counseling">Counseling:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Counseling" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <label for="Education">Education:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="Education" name="lookingfor" type="radio"/>
+                                    </td>
+                                </tr>
+                            </ul></table>
+
+                        </form>
+                        <input type="submit" value="SUBMIT" class="submitButton" />
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="td-third-wide">
+                        <img src="img/girl3.png" alt="" width="100%">
+                    </td>
+                    <td class="td-third-wide">
+                        <h2>Join The Movement</h2>
+                        <p class="description">Help in a variety of ways to support your community in ending youth homelessness TGTHR.</p>
+                        <input type="button" value="Learn More" class=""/>
+                    </td>
+                    <td class="td-third-wide">
+                        <h2>Give</h2>
+                        <p>Understand the impact of your donation</p>
+                        <form action="" method="post" id="lookingfor">
+                            <h2>I am looking for:</h2>
+                            <span class="form-instructions">Please select 1 item.</span>
+                            <table><ul>
+                                <tr>
+                                    <td id="donate-radio-td">
+                                        <input id="fifty" name="donate" type="radio"/>
+                                    </td>
+                                    <td>
+                                        <li>
+                                            <label for="fifty">$50 - </label>Recreation Opportunities
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="donate-radio-td">
+                                        <input id="hundo" name="donate" type="radio"/>
+                                    </td>
+                                    <td>
+                                        <li>
+                                            <label for="hundo">$100 - </label>Life Skills Courses
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="donate-radio-td">
+                                        <input id="twofiddy" name="donate" type="radio"/>
+                                    </td>
+                                    <td>
+                                        <li>
+                                            <label for="twofiddy">$250 - </label>Career Skills + Support
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="donate-radio-td">
+                                        <input id="fivehundo" name="donate" type="radio"/>
+                                    </td>
+                                    <td>
+                                        <li>
+                                            <label for="fivehundo">$500 - </label>Furnish an Apartment
+                                        </li>
+                                    </td>
+                                </tr>
+                            </ul></table>
+
+                        </form>
+                        <input type="submit" value="DONATE" class="submitButton" />
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="td-third-wide">
+                        <img src="img/boy.png" alt="" width="100%">
+                    </td>
+                    <td class="td-third-wide">
+                        <h2>About TGTHR</h2>
+                        <p class="description">We want to live in a society where every young person can lead a fulﬁlling life.</p>
+                        <input type="button" value="Learn More" class=""/>
+                    </td>
+                    <td class="td-third-wide">
+                        <h3>LAST YEAR WE WORKED WITH</h3>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="big-number">61</p>
+                                    <p class="description">Youth who were formerly in the foster care system</p>
+                                </td>
+                                <td>
+                                    <p class="big-number">86</p>
+                                    <p class="description">Youth with a history of human trafficking</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="big-number">106</p>
+                                    <p class="description">Youth who experienced domestic violence</p>
+                                </td>
+                                <td>
+                                    <p class="big-number">70</p>
+                                    <p class="description">LGBTQ+ youth who reported family rejection</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td>
+                        <h2>Our Community</h2>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="img/thehill.jpg" width="50%" alt="'The Hill' in Boulder during the Summer"/>
+                                    <p>The Hill</p>
+                                    <input type="button" value="Read More" class=""/>
+                                    <br><br>
+                                </td>
+                                <td>
+                                    <img src="img/downtown.jpg" width="50%" alt="Downtown Boulder 100 years ago and Downtown Boulder Today"/>
+                                    <p>Downtown</p>
+                                    <input type="button" value="Read More" class=""/>
+                                    <br><br>
+                                </td>
+                                <td>
+                                    <img src="img/eastboulder.jpg" width="50%" alt="A factory on the East side of Boulder, Colorado"/>
+                                    <p>East Boulder</p>
+                                    <input type="button" value="Read More" class=""/>
+                                    <br><br>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td class="td-half-wide">
+                        <h2>Events</h2>
+                        <input type="button" value="SEE UPCOMING EVENTS" class="events-buttons"/>
+                        <br><br>
+                        <input type="button" value="SEE PAST EVENTS" class="events-buttons"/>
+                    </td>
+                    <td class="td-half-wide">
+                        <h2>Join our newsletter</h2>
+                        <p class="description">Hear about more opportunities to join the movement.</p>
+                        <form action="" method="post" id="proposal2020">
+                            <span class="reqStar">*</span><span class="form-instructions">All fields required.</span>
+                            <table><ul>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <span class="reqStar">*</span>
+                                            <label for="firstname">First Name:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="firstname" name="firstname" type="text" class="reqfield"  />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <span class="reqStar">*</span>
+                                            <label for="lastname">Last Name:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="lastname" name="lastname" type="text" class="reqfield"  />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftSide">
+                                        <li>
+                                            <span class="reqStar">*</span>
+                                            <label for="email">Email:</label>
+                                        </li>
+                                    </td>
+                                    <td class="rightSide">
+                                        <input id="email" name="email" type="text" class="reqfield"  />
+                                    </td>
+                                </tr>
+                            </ul></table>
+                        </form>
+                        <input type="submit" value="SUBMIT" class="submitButton" />
+                        <br><br>
+                    </td>
+                </tr>
+            </table>
+
+
+        </main>
+        <footer>
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://tgthr.org/privacy-policy/">Privacy Policy</a>
+                        <span>&nbsp|&nbsp</span>
+                        <a href="https://tgthr.org/accessibility-statement/">Accessibility Statement</a>
+                        <span>&nbsp|&nbsp</span>
+                        <a href="https://tgthr.org/portals/">Portals</a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
 </html>
